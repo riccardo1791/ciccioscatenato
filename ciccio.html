@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="instructions">
+            <h3>Ciccio scatenato:</h3>
+            <p>Il weekend di trasgressione con Gerry, Adriano e Riccardo è iniziato. Raccogli più culi possibili.</p>
+            <p>Ma attento...non farti beccare!</p>
+            <!-- Add more instructions here if needed -->
+        </div>
+        <div id="canvas-container">
+            <canvas id="game" width="600" height="600"></canvas>
+            <button id="restart-button" onclick="restartGame()" style="display: none;">Gioca di nuovo</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+#game-container {
+  display: flex;
+  align-items: center;
+}
+
+#instructions {
+  margin-right: 20px; /* Adjust as needed */
+  width: 200px; /* Adjust as needed */
+}
+
+#canvas-container {
+  position: relative;
+  display: inline-block;
+}
+
+canvas {
+  border: 2px solid #000;
+}
+
+#restart-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+}
